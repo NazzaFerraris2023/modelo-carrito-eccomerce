@@ -1,0 +1,93 @@
+
+/* Light Mode */
+#light{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#carrito h4{
+    text-decoration: underline;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+#carrito h5{
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+/* div padre */
+.estilos_productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left:80px;
+    margin-right:80px;
+
+}
+/* div hijo */
+.contenedor_productos{
+    background-color: aliceblue;
+    padding: 1em;
+    margin-bottom: 1.2em;
+    border-radius: 20px;    
+}
+.contenedor_productos:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+/* imagenes */
+.img_producto{
+    width: 15rem;
+    border-radius: 20px;
+}
+/* h2 emoji */
+.contenedor_emoji{
+    display: flex;
+    margin-left: 2em;
+
+}
+
+/* h3 */
+.nombre_producto{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: lighter;
+    font-family: fantasy;
+}
+/* h4 */
+.precio_producto{
+    font-family: fantasy;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+/* btn */
+.btn{
+    border-radius: 20px;
+    background-color: yellow;
+    transform: translateX(85px);
+    padding: .5em;
+}
+.btn:hover{
+    background-color: rgba(255, 157, 0, 0.861);
+}
+
+/* BTN darkmode */
+#dark_mode_btn{
+    border-radius: 20px;
+    margin-left: 1em;
+    text-transform: capitalize;
+    background-color: transparent;
+}
+#dark_mode_btn:hover{
+    background-color: rgb(250, 96, 122);
+}
+
+
